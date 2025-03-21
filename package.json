@@ -1,0 +1,49 @@
+{
+  "name": "nebula-code",
+  "displayName": "Color Themes",
+  "description": "A collection of vibrant VS Code themes",
+  "version": "1.0.0",
+  "publisher": "Gilcimar Schunk",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nebula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nebula Code-color-theme.json"
+      },
+      {
+        "label": "Solo Leveling",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nebula Dark-color-theme.json"
+      },
+      {
+        "label": "Solo Leveling Arise",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Solo_Leveling-theme.json"
+      },
+      {
+        "label": "Frieren's Magic",
+        "uiTheme": "vs",
+        "path": "./themes/Frieren-color-theme.json"
+      },
+      {
+        "label": "All Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/All-Blue-color-theme.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "nebula-code": "file:"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gilcin/color-themes.git"
+  }
+}
